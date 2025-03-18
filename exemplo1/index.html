@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exemplo 1</title>
+</head>
+<body>
+    <div class="box">
+
+        <h1>Calculando Valores</h1>
+
+        <label for="n1">Número 1</label>
+        <input type="number" name="n1" id="n1">
+        <br>
+
+        <label for="n1">Número 2</label>
+        <input type="number" name="n2" id="n2">
+        <br>
+
+        <div class="botoes">
+            <button onclick="somar()">Somar</button>
+            <button onclick="subtrair()">Subtrair</button>
+            <button onclick="dividir()">Dividir</button>
+            <button onclick="multiplicar()">Multiplicar</button>
+            <button onclick="raiz()">Raiz Quadrada</button>
+            <button onclick="potencia()">Potência</button>
+            <button onclick="limpar()">Limpar Histórico</button>
+        </div>
+
+        <label for="res">Resultado:</label>
+        <p id="res"></p>
+
+    </div>
+
+<script src="codigo.js"></script>
+</body>
+</html>
